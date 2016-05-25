@@ -2,9 +2,6 @@
 - name: install homebrew zsh
   homebrew: name=zsh state=latest update_homebrew=yes
 
-- name: link homebrew zsh
-  homebrew: name=zsh state=linked
-
 - name: add zsh to /etc/shells
   lineinfile:
     line: /usr/local/bin/zsh
