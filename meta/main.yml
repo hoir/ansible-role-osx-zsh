@@ -1,0 +1,13 @@
+---
+galaxy_info:
+  author: Albert Z Wang
+  description: Install Zsh on OSX
+  license: BSD
+  min_ansible_version: 2.0
+  platforms:
+  - name: Darwin
+    versions: ['all']
+  galaxy_tags:
+  - installer
+  - osx
+
